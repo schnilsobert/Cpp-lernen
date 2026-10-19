@@ -22,10 +22,15 @@ int main()
     }
     else
     {
-        double real = - p / 2, 
-               imaginear = sqrt(-Diskriminante);
-        std::cout << "x1 = " << real << " + " << imaginear << "i\n";
-        std::cout << "x2 = " << real << " - " << imaginear << "i\n";
+        /*double real = - p / 2;
+        double imaginear = sqrt(-Diskriminante); 
+        std::complex<double> x1(real, imaginear);
+        std::complex<double> x2(real, -imaginear);
+        */
+        std::complex<double> x1(- p / 2, sqrt(-Diskriminante));
+        std::complex<double> x2(- p / 2, -sqrt(-Diskriminante));
+        std::cout << "x1 = " << x1 << std::endl;
+        std::cout << "x2 = " << x2 << std::endl;
     }
 
 }
