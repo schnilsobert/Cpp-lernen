@@ -3,8 +3,8 @@
 
 int main()
 {
-    std::vector<float> Kosten(12); //Tabelle mit 2 Float werten angelegt
-
+    //Tabelle mit 2 Float werten angelegt
+    std::vector<float> Kosten(12); 
     // Füllen der Tabelle
         //type umformung von Int zu float
     for (int i=0; i < Kosten.size(); i++)
@@ -38,9 +38,4 @@ int main()
         // sortiert ausgeben
     for (int i = 0; i < Kosten.size(); i++)
         std::cout << i << ": " << sortierteKosten[i] << std::endl;
-        
-
-
-
-
 }
