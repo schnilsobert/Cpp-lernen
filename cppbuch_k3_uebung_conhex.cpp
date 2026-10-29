@@ -16,7 +16,7 @@ int main()
      beziehungsweise zurück beim Lesen erfolgen soll (üblich bei MSDOS/Windows und Os/2). Die Funktion c_str() stellt den Quelldateinamen in einer für open 
      verträglichen Form dar, nämlich als C-String. C-Strings werden ab Seite 197 behandelt.
     */
-    if (!Quelle) //Fehlerabfrage
+    if (!Quelle) //Fehlerabfrage der datei
     {
         std::cerr << Quelldateiname
                   << " kann nicht geöffnet werden!\n";
