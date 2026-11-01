@@ -21,6 +21,6 @@ int main()
         std::cerr << Quelldateiname
                   << " kann nicht geöffnet werden!\n";
         exit(-1);
-
+    }
 }
 
