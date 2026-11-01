@@ -22,5 +22,6 @@ int main()
                   << " kann nicht geöffnet werden!\n";
         exit(-1);
     }
+    // erst literale zu binär und dann binär zu hex? 
 }
 
