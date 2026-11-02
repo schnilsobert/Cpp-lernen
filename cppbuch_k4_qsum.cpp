@@ -24,8 +24,8 @@ int qsum(long z)
 */
 int main()
 {
-    std::cout << "Zahl : ";
+    std::cout << "Zahl: ";
     long zahl;
     std::cin >> zahl;
-    std::cout << "Quersumme =" << qsum(zahl);
+    std::cout << "Quersumme = " << qsum(zahl);
 } 
